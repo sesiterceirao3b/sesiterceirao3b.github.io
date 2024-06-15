@@ -7,6 +7,7 @@
 
 
 :root { 
+  --background-header: #17386479;
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #151515; /* Color for headings, subheadings and title throughout the website */
@@ -17,14 +18,14 @@
 :root {
   --nav-color: rgba(255, 255, 255, 0.905);  /* The default color of the main navmenu links */
   --nav-hover-color: #ffb800; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-background-color: #fffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
   --nav-dropdown-hover-color: #ffb800; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Template Custom Colors */
 :root {
-  --footer-background-color: #000000;
+  --footer-background-color: #173864;
 }
 
 /* Smooth scroll */
@@ -101,19 +102,13 @@ h6 {
   box-shadow: #173864 0px 0px 10px;
 }
 
-.image-logo{
-  transform: rotate(50deg);
-  position: relative;
-  top: 530px ;
-  left: 1030px;
-}
 
+ 
 .header {
-  --background-color: rgba(0, 0, 0, 0.8);
   --heading-color: #ffffff;
   --contrast-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: #173864;
   padding: 10px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -124,9 +119,10 @@ h6 {
 }
 
 .header .logo img {
-  height: 80px;
+  height: 120px;
   margin-right: 8px;
 }
+
 
 .header .logo h1 {
   font-size: 32px;
@@ -413,7 +409,7 @@ h6 {
     position: fixed;
     overflow: hidden;
     inset: 0;
-    background: rgba(33, 37, 41, 0.8);
+    background: rgb(255, 255, 255);
     transition: 0.3s;
   }
 
@@ -446,7 +442,7 @@ h6 {
 }
 
 .footer .footer-about .logo img {
-  max-height: 40px;
+  max-height: 140px;
   margin-right: 6px;
 }
 
